@@ -1,9 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/jjlcDB
-    username: root
+    url: jdbc:mysql://mysql:3306/jjlcDB
+    username: admin
     password: root
-
 
   jpa:
     hibernate:
@@ -12,5 +11,6 @@ spring:
     properties:
       hibernate:
         format_sql: true
+
 server:
   port: 8080
